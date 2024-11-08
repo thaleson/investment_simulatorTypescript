@@ -1,0 +1,37 @@
+# Diretórios de dependências
+node_modules/
+
+
+
+
+# Arquivos de configuração temporários e cache do sistema
+*.log
+*.tmp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# Arquivos de configuração de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de backup do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do editor (VSCode, JetBrains)
+.vscode/
+.idea/
+*.swp
+
+
+# Cache de testes
+coverage/
+jest/
+.nyc_output/
+
+# Arquivos de lock (apenas se não quiser incluir)
+yarn.lock
+package-lock.json

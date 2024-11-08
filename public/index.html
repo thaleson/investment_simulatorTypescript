@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Investimentos 💸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulador de Previsão de Investimentos 💸</h1>
+    
+    <div class="form">
+      <label for="principal">Valor Inicial (R$):</label>
+      <input type="number" id="principal" placeholder="10000" />
+      
+      <label for="rate">Taxa de Juros Anual (%):</label>
+      <input type="number" id="rate" placeholder="5" step="0.01" />
+      
+      <label for="time">Tempo de Investimento (anos):</label>
+      <input type="number" id="time" placeholder="10" />
+      
+      <label for="contributions">Contribuição Anual (R$):</label>
+      <input type="number" id="contributions" placeholder="1200" />
+      
+      <button onclick="calculateInvestment()">Calcular</button>
+    </div>
+    
+    <div id="result"></div>
+  </div>
+
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
